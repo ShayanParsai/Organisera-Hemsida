@@ -528,8 +528,8 @@ body,
 	content: '';
 }
 .tm-slider-container .text-line-vertical:after{
-	height: 50rem;
-	border-color: #ff6666;
+	height: 1rem;
+	border-color: #000000;
 }
 @media only screen and (min-width: 960px){
 	.header-1-static + .content{
@@ -1902,7 +1902,7 @@ body,
 
 /* Hero */
 .hero-5-1 .media-column {
-	background-image: url(../images/renard/hero/harry-sandhu-209807.jpg);
+	background-image: url(../images/X-Gamer.png);
 }
 
 /* Grid */
