@@ -120,7 +120,7 @@ $( document ).ready( function(){
 	var contactForm = '.contact-form';
 	var contactRequired = '.required-field';
 	var contactFormSending = 'Please wait.';
-	var contactFormSendingButton = 'Sending...';
+	var contactFormSendingButton = 'Skickat!';
 	var contactFormSuccess = 'Thank you, your email has been received!';
 	var contactFormError = 'Oh boy an error occurred, please try again.';
 	var contactFormFillFields = 'Please fill out required fields.';
