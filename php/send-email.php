@@ -1,6 +1,7 @@
 <?php
 	// Your Email
 	$recipient = "FlyttOchStadGBG@Hotmail.com"; // PLEASE SET YOUR EMAIL ADDRESS
+	$recaptcha_secret_key = ''; // PLEASE SET YOUR GOOGLE RECAPTCHA API KEY. If you are not using, please leave it blank.
 
 	if(!empty($recaptcha_secret_key) && array_key_exists('recaptcha',$_POST) ) {
 		returnAndExitAjaxResponse(
